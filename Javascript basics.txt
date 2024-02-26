@@ -1,0 +1,63 @@
+Javascript basics:
+
+**I/O:
+
+Intialising variable with data:
+
+let myage = 21
+
+Printing the variable:
+
+console.log(myage)
+
+Example code:
+
+let myAge = 21
+let humanDogRatio = 7
+let myDogAge = myAge * humanDogRatio
+console.log(myDogAge)
+
+**Incr/Decr
+
+let count = 5
+count = count + 1
+console.log(count)
+count = count - 2
+console.log(count)
+
+**Funtions:
+
+function countdown()
+{
+    console.log(5)
+    console.log(4)
+    console.log(3)
+    console.log(2)
+    console.log(1)
+}
+
+countdown()
+
+*Note: Javascript can understand above variable
+       not present in function and can use them without
+       being in function
+
+Eg:
+
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+function logLapTime()
+{
+   let totalTime = lap1 + lap2 + lap3
+   console.log(totalTime)
+}
+
+logLapTime()
+
+In above example, lap1 can be used inside function
+however, totaltime cannot be used outside the function.
+
+
+
